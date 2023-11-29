@@ -21,6 +21,8 @@ The script is structured to be run as a whole, and it automates multiple tasks a
 
 ## Future Enhancements
 The script shares heavy inspirations from TronScript and aims to incorporate additional functionality such as running TronScript as a "final clean," executing ClamAV scans, exporting reliability reports and battery scans, gathering system specifications, and compiling comprehensive reports.
+__Tronscript can be found below__
+https://github.com/bmrf/tron
 
 ## Disclaimer
 The script is provided "as-is" and is intended for educational and learning purposes. It is crucial to thoroughly understand the code and its implications before running it on production systems. Always exercise caution and ensure that you have a backup of important data before using the script.
