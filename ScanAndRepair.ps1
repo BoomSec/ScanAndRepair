@@ -55,7 +55,7 @@ sfc /scannow
 # Copys the contents of and exports the Machines existing CBS Log to an output file
 Copy-Item -Path "C:\Windows\Logs\CBS\CBS.log" -Destination "$Filehost\Operating System\SFC_Results.txt"
 
-
+# Look into pulling log data from document from specific time period - ie. only grab specific data since date of execution
 
 # Dism Scan
 
@@ -101,8 +101,8 @@ foreach ($path in $tempPaths) {
 
 
 
-# Run cleanmgr.exe
-Start-Process cleanmgr.exe -Wait
+# Run cleanmgr.exe - Auto runs cleanmgr with no user input needed (need to look into documenting what got cleaned???)
+CLEANMGR /D C: /sagerun:65535
 
 
 
